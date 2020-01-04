@@ -6,6 +6,7 @@
      steps:
        - checkout
        - run: npm ci
+       - run: ls
        - run: elm-test
  workflows:
    version: 2
